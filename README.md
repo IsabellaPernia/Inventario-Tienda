@@ -4,7 +4,7 @@ Aplicación para que una pequeña tienda administre su inventario: lista de prod
 
 | Capa | Tecnología |
 | --- | --- |
-| Base de datos | MySQL 8 (instalado en tu máquina) |
+| Base de datos | MySQL 8 (instalado en la máquina) |
 | Backend | NestJS 12 + TypeORM, API REST en `http://localhost:3000/api` |
 | Frontend | React 19 + Vite + TypeScript, en `http://localhost:5173` |
 
