@@ -40,6 +40,12 @@ mysql -u root -p < database/seed.sql   # opcional
 
 Esto crea la base `catalogo` con las tablas `categories` y `products`. El seed agrega 5 categorías y 8 productos.
 
+Para empezar de cero, borra la base y repite los dos comandos (el esquema no sobrescribe tablas existentes):
+
+```bash
+mysql -u root -p -e "DROP DATABASE catalogo"
+```
+
 > **Linux, error «Access denied for user root»:** en algunas instalaciones `root` solo entra por socket. Crea un usuario propio y úsalo en el paso siguiente:
 >
 > ```sql
